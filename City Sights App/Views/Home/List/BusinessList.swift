@@ -14,7 +14,7 @@ struct BusinessList: View {
     var body: some View {
         
         
-        ScrollView {
+        ScrollView (showsIndicators: false) {
             LazyVStack(alignment: .leading, pinnedViews: [.sectionHeaders]) {
                 
                 // Section - loci na vec containerjev + lahko dodas header/footer

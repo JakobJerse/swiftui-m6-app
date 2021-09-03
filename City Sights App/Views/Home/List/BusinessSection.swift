@@ -18,8 +18,8 @@ struct BusinessSection: View {
         
         Section (header: BusinessSectionHeader(title: title)) {  // da se text ne prekriva - damo belo odzadje
             ForEach(businesses) { business in
-                Text(business.name ?? "")
-                Divider()
+                
+                BusinessRow(business: business)
             }
         }
         
