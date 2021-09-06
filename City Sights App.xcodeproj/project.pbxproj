@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2D9F4A26E69B6600598B2D /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D9F4926E69B6600598B2D /* BusinessDetail.swift */; };
 		3F8FE38726DE3A8300EFF6C8 /* CitySightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FE38626DE3A8300EFF6C8 /* CitySightsApp.swift */; };
 		3F8FE38926DE3A8300EFF6C8 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FE38826DE3A8300EFF6C8 /* LaunchView.swift */; };
 		3F8FE38B26DE3A8400EFF6C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8FE38A26DE3A8400EFF6C8 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F2D9F4926E69B6600598B2D /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
 		3F8FE38326DE3A8300EFF6C8 /* City Sights App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Sights App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8FE38626DE3A8300EFF6C8 /* CitySightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySightsApp.swift; sourceTree = "<group>"; };
 		3F8FE38826DE3A8300EFF6C8 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F2D9F4826E69B4900598B2D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D9F4926E69B6600598B2D /* BusinessDetail.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		3F8FE37A26DE3A8300EFF6C8 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +166,7 @@
 				3F90DB2C26E1724F00A57B85 /* BusinessSectionHeader.swift */,
 				3F90DB2E26E1731B00A57B85 /* BusinessSection.swift */,
 				3F90DB3026E1771800A57B85 /* BusinessRow.swift */,
+				3F2D9F4826E69B4900598B2D /* Detail */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -235,6 +246,7 @@
 				3F90DB1E26DFD33E00A57B85 /* Business.swift in Sources */,
 				3F90DB2D26E1724F00A57B85 /* BusinessSectionHeader.swift in Sources */,
 				3F8FE38726DE3A8300EFF6C8 /* CitySightsApp.swift in Sources */,
+				3F2D9F4A26E69B6600598B2D /* BusinessDetail.swift in Sources */,
 				3F90DB2026DFD51E00A57B85 /* BusinessSearch.swift in Sources */,
 				3F90DB2B26DFE2C600A57B85 /* BusinessList.swift in Sources */,
 				3F90DB2F26E1731B00A57B85 /* BusinessSection.swift in Sources */,

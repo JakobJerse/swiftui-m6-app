@@ -19,7 +19,12 @@ struct BusinessSection: View {
         Section (header: BusinessSectionHeader(title: title)) {  // da se text ne prekriva - damo belo odzadje
             ForEach(businesses) { business in
                 
-                BusinessRow(business: business)
+                NavigationLink(
+                    destination: BusinessDetail(business: business),
+                    label: {
+                        BusinessRow(business: business)
+                    })
+                
             }
         }
         
