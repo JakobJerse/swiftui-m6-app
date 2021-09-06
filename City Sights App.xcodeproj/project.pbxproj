@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F2D9F4A26E69B6600598B2D /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D9F4926E69B6600598B2D /* BusinessDetail.swift */; };
+		3F2D9F4D26E6B73E00598B2D /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D9F4C26E6B73E00598B2D /* BusinessMap.swift */; };
 		3F8FE38726DE3A8300EFF6C8 /* CitySightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FE38626DE3A8300EFF6C8 /* CitySightsApp.swift */; };
 		3F8FE38926DE3A8300EFF6C8 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FE38826DE3A8300EFF6C8 /* LaunchView.swift */; };
 		3F8FE38B26DE3A8400EFF6C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8FE38A26DE3A8400EFF6C8 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		3F2D9F4926E69B6600598B2D /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
+		3F2D9F4C26E6B73E00598B2D /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
 		3F8FE38326DE3A8300EFF6C8 /* City Sights App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Sights App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8FE38626DE3A8300EFF6C8 /* CitySightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySightsApp.swift; sourceTree = "<group>"; };
 		3F8FE38826DE3A8300EFF6C8 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,14 @@
 				3F2D9F4926E69B6600598B2D /* BusinessDetail.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		3F2D9F4B26E6B71B00598B2D /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D9F4C26E6B73E00598B2D /* BusinessMap.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 		3F8FE37A26DE3A8300EFF6C8 = {
@@ -154,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				3F90DB2726DFDF4200A57B85 /* HomeView.swift */,
+				3F2D9F4B26E6B71B00598B2D /* Map */,
 				3F90DB2926DFE2AC00A57B85 /* List */,
 			);
 			path = Home;
@@ -249,6 +260,7 @@
 				3F2D9F4A26E69B6600598B2D /* BusinessDetail.swift in Sources */,
 				3F90DB2026DFD51E00A57B85 /* BusinessSearch.swift in Sources */,
 				3F90DB2B26DFE2C600A57B85 /* BusinessList.swift in Sources */,
+				3F2D9F4D26E6B73E00598B2D /* BusinessMap.swift in Sources */,
 				3F90DB2F26E1731B00A57B85 /* BusinessSection.swift in Sources */,
 				3F8FE39926DE3D4C00EFF6C8 /* ContentModel.swift in Sources */,
 				3F90DB2326DFD85800A57B85 /* Constants.swift in Sources */,
