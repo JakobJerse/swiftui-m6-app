@@ -11,6 +11,7 @@ struct HomeView: View {
     
     @EnvironmentObject var model: ContentModel
     @State var isMapShowing = false
+    @State var selectedBusiness: Business?  // s tem bomo detectali kateri business gleda user
     
     var body: some View {
        
@@ -38,8 +39,14 @@ struct HomeView: View {
                     .navigationBarHidden(true)
                 }
                 else {
-                    BusinessMap()
+                    BusinessMap(selecetedBusiness: $selectedBusiness)
                         .ignoresSafeArea()
+                        .sheet(item: $selectedBusiness) { business in
+                            
+                            // Create a business detail view instance
+                            // Pass in the selecred business
+                            BusinessDetail(business: business)
+                        }
                 }
             }
            
