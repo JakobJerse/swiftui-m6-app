@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1BBFCA26EA2AE50012D3DD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1BBFC926EA2AE50012D3DD /* OnboardingView.swift */; };
+		3F1BBFCC26EA33660012D3DD /* LocationDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1BBFCB26EA33660012D3DD /* LocationDeniedView.swift */; };
+		3F1BBFCF26EA390D0012D3DD /* YelpAttribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1BBFCE26EA390D0012D3DD /* YelpAttribution.swift */; };
+		3F1BBFD126EA3D170012D3DD /* DashedDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1BBFD026EA3D170012D3DD /* DashedDivider.swift */; };
 		3F2D9F4A26E69B6600598B2D /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D9F4926E69B6600598B2D /* BusinessDetail.swift */; };
 		3F2D9F4D26E6B73E00598B2D /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D9F4C26E6B73E00598B2D /* BusinessMap.swift */; };
 		3F7D582E26E905F1000A1B12 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D582D26E905F1000A1B12 /* DirectionsView.swift */; };
@@ -28,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1BBFC926EA2AE50012D3DD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3F1BBFCB26EA33660012D3DD /* LocationDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDeniedView.swift; sourceTree = "<group>"; };
+		3F1BBFCE26EA390D0012D3DD /* YelpAttribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAttribution.swift; sourceTree = "<group>"; };
+		3F1BBFD026EA3D170012D3DD /* DashedDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedDivider.swift; sourceTree = "<group>"; };
 		3F2D9F4926E69B6600598B2D /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
 		3F2D9F4C26E6B73E00598B2D /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
 		3F7D582D26E905F1000A1B12 /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
@@ -61,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F1BBFCD26EA38DF0012D3DD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3F1BBFCE26EA390D0012D3DD /* YelpAttribution.swift */,
+				3F1BBFD026EA3D170012D3DD /* DashedDivider.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		3F2D9F4826E69B4900598B2D /* Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +156,7 @@
 		3F8FE39726DE3AE800EFF6C8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3F1BBFCD26EA38DF0012D3DD /* Common */,
 				3F8FE38826DE3A8300EFF6C8 /* LaunchView.swift */,
 				3F90DB2626DFDF2D00A57B85 /* Home */,
 				3F90DB2526DFDF2400A57B85 /* Denied */,
@@ -158,6 +176,7 @@
 		3F90DB2426DFDF1700A57B85 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				3F1BBFC926EA2AE50012D3DD /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -165,6 +184,7 @@
 		3F90DB2526DFDF2400A57B85 /* Denied */ = {
 			isa = PBXGroup;
 			children = (
+				3F1BBFCB26EA33660012D3DD /* LocationDeniedView.swift */,
 			);
 			path = Denied;
 			sourceTree = "<group>";
@@ -266,15 +286,19 @@
 				3F90DB2826DFDF4200A57B85 /* HomeView.swift in Sources */,
 				3F7D582E26E905F1000A1B12 /* DirectionsView.swift in Sources */,
 				3F90DB1E26DFD33E00A57B85 /* Business.swift in Sources */,
+				3F1BBFCC26EA33660012D3DD /* LocationDeniedView.swift in Sources */,
 				3F90DB2D26E1724F00A57B85 /* BusinessSectionHeader.swift in Sources */,
 				3F8FE38726DE3A8300EFF6C8 /* CitySightsApp.swift in Sources */,
 				3F2D9F4A26E69B6600598B2D /* BusinessDetail.swift in Sources */,
+				3F1BBFD126EA3D170012D3DD /* DashedDivider.swift in Sources */,
 				3F90DB2026DFD51E00A57B85 /* BusinessSearch.swift in Sources */,
 				3F7D583026E90650000A1B12 /* BusinessTitle.swift in Sources */,
 				3F90DB2B26DFE2C600A57B85 /* BusinessList.swift in Sources */,
 				3F2D9F4D26E6B73E00598B2D /* BusinessMap.swift in Sources */,
 				3F90DB2F26E1731B00A57B85 /* BusinessSection.swift in Sources */,
+				3F1BBFCF26EA390D0012D3DD /* YelpAttribution.swift in Sources */,
 				3F8FE39926DE3D4C00EFF6C8 /* ContentModel.swift in Sources */,
+				3F1BBFCA26EA2AE50012D3DD /* OnboardingView.swift in Sources */,
 				3F90DB2326DFD85800A57B85 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

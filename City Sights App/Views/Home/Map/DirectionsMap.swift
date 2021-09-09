@@ -75,6 +75,8 @@ struct DirectionsMap : UIViewRepresentable  {
     
     func updateUIView(_ uiView: MKMapView, context: Context) {
         
+        // v business mapu smo morali implementat to funkcijo, tukaj pa je ne rabimo, ker ze imamo passan tocen business do katerega zelimo directions (imamo ves potreben data)
+        // Tam pa smo dobivali podatke od api-ja in posledicno updatali map
         
     }
     
